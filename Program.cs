@@ -14,7 +14,7 @@ if ((num.Length) < 3) { Console.WriteLine("третьей цифры нет"); }
 else {Console.WriteLine("Третья цифра числа: " + num[2]);}
 */
 
-// #2-2
+// #2-2 Решение через численное значение
 Console.WriteLine("Введите число: ");
 int num = Convert.ToInt32(Console.ReadLine());
 if (num<100)
